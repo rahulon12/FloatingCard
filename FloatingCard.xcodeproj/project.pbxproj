@@ -11,6 +11,7 @@
 		B75958FD27D512FA0098CDCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75958FC27D512FA0098CDCE /* ContentView.swift */; };
 		B75958FF27D512FC0098CDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B75958FE27D512FC0098CDCE /* Assets.xcassets */; };
 		B759590227D512FC0098CDCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B759590127D512FC0098CDCE /* Preview Assets.xcassets */; };
+		B759590927D5141B0098CDCE /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B759590827D5141B0098CDCE /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B75958FC27D512FA0098CDCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B75958FE27D512FC0098CDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B759590127D512FC0098CDCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B759590827D5141B0098CDCE /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				B75958FA27D512FA0098CDCE /* FloatingCardApp.swift */,
 				B75958FC27D512FA0098CDCE /* ContentView.swift */,
+				B759590827D5141B0098CDCE /* MotionManager.swift */,
 				B75958FE27D512FC0098CDCE /* Assets.xcassets */,
 				B759590027D512FC0098CDCE /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B75958FD27D512FA0098CDCE /* ContentView.swift in Sources */,
+				B759590927D5141B0098CDCE /* MotionManager.swift in Sources */,
 				B75958FB27D512FA0098CDCE /* FloatingCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Make the card float.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = 6MTCHYNPAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Make the card float.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
